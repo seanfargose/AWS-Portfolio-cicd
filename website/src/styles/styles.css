@@ -10,17 +10,18 @@
 
 :root {
   /* Dark Theme */
-  --color-primary: #191d2b;
-  --color-secondary: #ef811a;
-  --color-white: #ffffff;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #dbe1e8;
-  --color-grey-2: #b2becd;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #2a2e35;
-  --color-grey-6: #12181b;
+  --color-primary: #23150F;
+  --color-secondary: #D4A15E;
+  --color-white: #FFF8F1;
+  --color-black: #0F0906;
+
+  --color-grey0: #F5EFE8;
+  --color-grey-1: #E3D3C3;
+  --color-grey-2: #C4AA90;
+  --color-grey-3: #98755B;
+  --color-grey-4: #6E4F3C;
+  --color-grey-5: #3F2A1F;
+  --color-grey-6: #1A120E;
 
   
 
