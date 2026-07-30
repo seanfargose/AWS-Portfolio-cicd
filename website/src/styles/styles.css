@@ -9,33 +9,30 @@
 }
 
 :root {
-  /* Dark Theme */
-  --color-primary: #23150F;
-  --color-secondary: #D4A15E;
-  --color-white: #FFF8F1;
-  --color-black: #0F0906;
+  /* Rich Dark Theme */
+  --color-primary: #16110D;      /* Deep Espresso */
+  --color-secondary: #C89B5E;    /* Luxury Gold */
+  --color-white: #F7F3EE;        /* Warm White */
+  --color-black: #080605;
 
-  --color-grey0: #F5EFE8;
-  --color-grey-1: #E3D3C3;
-  --color-grey-2: #C4AA90;
-  --color-grey-3: #98755B;
-  --color-grey-4: #6E4F3C;
-  --color-grey-5: #3F2A1F;
-  --color-grey-6: #1A120E;
+  --color-grey0: #EEE7DF;
+  --color-grey-1: #D4C5B4;
+  --color-grey-2: #A8927A;
+  --color-grey-3: #7A6453;
+  --color-grey-4: #584435;
+  --color-grey-5: #32251D;
+  --color-grey-6: #1A1410;
 
-  
+  /* Glassmorphism */
+  --glass-bg: rgba(44, 30, 20, 0.28);
+  --glass-border: rgba(200, 155, 94, 0.18);
+  --blur: 12px;
 
-    /* Glassmorphism */
-    --glass-bg: rgba(150, 50, 150, 0.15); /* Transparent pinkish-purple */
-    --glass-border: rgba(255, 100, 255, 0.3); /* Light border for glass effect */
-    --blur: 12px;
-    
-    /* Gradient Background */
-    --bg1: #191d2b; /* Dark background color */
-    --bg2: #590f92; /* Violet color for the gradient */
-    --bg3: #3b116e; /* Purple-pink for gradient */
-  }
-
+  /* Animated Background */
+  --bg1: #16110D;
+  --bg2: #2D1E16;
+  --bg3: #4A3325;
+}
   
 
 
