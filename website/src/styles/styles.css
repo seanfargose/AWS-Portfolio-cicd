@@ -34,38 +34,43 @@
   --bg3: #4A3325;
 }
   
-
-
 .light-mode {
   /* Light Theme */
-  --color-primary: #FFFFFF;
-  --color-secondary: #c70cfa;
-  --color-white: #454e56;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #f8f8f8;
-  --color-grey-6: #12181b;
+  --color-primary: #FAF6F0;
+  --color-secondary: #8B5E3C;      /* Chocolate Brown Accent */
+  --color-white: #3A2E25;
+  --color-black: #000000;
+
+  --color-grey0: #FFFDF9;
+  --color-grey-1: #7A6858;
+  --color-grey-2: #6B5B4D;
+  --color-grey-3: #5A4A3D;
+  --color-grey-4: #3A2E25;
+  --color-grey-5: #F5EFE6;
+  --color-grey-6: #2A211B;
 
   /* Glassmorphism */
-  --glass-bg: rgba(255, 200, 255, 0.15); /* Soft lilac-pinkish white */
-  --glass-border: rgba(255, 150, 255, 0.2);
-  --blur: 10px;
+  --glass-bg: rgba(255, 248, 240, 0.35);
+  --glass-border: rgba(139, 94, 60, 0.18);
+  --blur: 12px;
 
-  /* Light Theme Background */
-  --bg1: #f8e1ff;
-  --bg2: #d9c2ff;
-  --bg3: #ffe4f2;
+  /* Premium Warm Background */
+  --bg1: #FFF8F0;
+  --bg2: #F2E3D5;
+  --bg3: #E9D2B5;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
-  background: linear-gradient(-45deg, var(--bg1), var(--bg2), var(--bg3), var(--bg1));
+  background: linear-gradient(
+      -45deg,
+      var(--bg1),
+      var(--bg2),
+      var(--bg3),
+      var(--bg1)
+  );
   background-size: 300% 300%;
   animation: gradientFlow 10s infinite alternate ease-in-out;
   transition: all 0.4s ease-in-out;
